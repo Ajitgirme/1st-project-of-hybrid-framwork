@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+
+<parameter name="browser" value="chrome">
+<parameter name="url" value="/https://opensource-demo.orangehrmlive.com/">
+</parameter>
+    <classes>
+      <class name="com.orangehrm.hybridframe_2021.testcases.DashBoardTC"/>
+    </classes>
+</parameter>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
